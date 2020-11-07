@@ -4,7 +4,6 @@ import {buyIceCream} from '../redux/iceCream/iceCreamActions'
 
 function HookIceCreamContainer() {
   const numOfIceCream = useSelector(state => state.iceCream.numberOfIceCream)
-  console.log(numOfIceCream)
   const dispatch = useDispatch()
   return (
     <div>
